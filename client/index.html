@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="routeExample">
+<head>
+  <title>AngularJS Route Example</title>
+  <script src="/node_modules/angular/angular.js"></script>
+  <script src="/node_modules/angular-route/angular-route.js"></script>
+</head>
+<body>
+  <h1>AngularJS Router Example</h1>
+  <nav>
+    <ul>
+      <li><a href="#!/route1">First Route</a></li>
+      <li><a href="#!/route2">Second Route</a></li>
+      <li><a href="#!/route/3">Third Route</a></li>
+    </ul>
+  </nav>
+  <div ng-view></div>
+
+  <script src="/client/app.js"></script>
+  <script src="/client/route1.js"></script>
+  <script src="/client/route2.js"></script>
+  <script src="/client/route3.js"></script>
+</body>
+</html>

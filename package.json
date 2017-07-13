@@ -1,0 +1,24 @@
+{
+  "name": "angularjs-router-example",
+  "version": "1.0.0",
+  "description": "A example of how to use AngularJS Route module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chungw51993/AngularJS-router-example.git"
+  },
+  "author": "Jin Chung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chungw51993/AngularJS-router-example/issues"
+  },
+  "homepage": "https://github.com/chungw51993/AngularJS-router-example#readme",
+  "dependencies": {
+    "angular": "^1.6.5",
+    "angular-route": "^1.6.5",
+    "express": "^4.15.3"
+  }
+}
