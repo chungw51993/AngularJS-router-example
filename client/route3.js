@@ -1,5 +1,5 @@
 angular.module('routeExample')
 
-.controller('Route3', function($scope, $routeParams) {
-  $scope.header = 'id in the url params is ' + $routeParams.id;
+.controller('Route3Ctrl', function($scope, $routeParams) {
+  $scope.heading = 'id in the url params is ' + $routeParams.id;
 });
